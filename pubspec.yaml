@@ -1,0 +1,32 @@
+name: marwan_memory
+description: Personal AI Assistant for Android
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # أيقونات iOS
+  cupertino_icons: ^1.0.2
+
+  # الاتصال مع API
+  http: ^0.13.6
+
+  # تحويل النص إلى كلام
+  flutter_tts: ^3.6.3
+
+  # التعرف على الصوت
+  speech_to_text: ^6.3.0
+
+  # المصادقة بالبصمة أو الوجه
+  local_auth: ^2.1.7
+
+dependencies:
+  flutter_test:
+    sdk: flutter
+  http: ^X.Y.Z # أضف هذا السطر
+flutter:
+  uses-material-design: true

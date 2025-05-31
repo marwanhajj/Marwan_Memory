@@ -1,0 +1,2 @@
+rootProject.name = 'marwan_memory'
+include ':app'
